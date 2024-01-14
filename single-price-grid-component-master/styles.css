@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    padding: 10px;
+}
+h3{
+    padding: 15px;
+    color: white;
+}
+h2{
+    color: hsl(71, 73%, 54%)
+    ;
+}
+.main__container{
+    font-size: 16px;
+    font-family: karla;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    overflow: hidden;
+    line-height: 20px;
+   
+}
+ 
+span{
+    padding-left: 10px;
+    color: hsl(218, 32%, 82%);  
+
+    justify-content: center;
+    align-items: center;
+}
+.card__container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    max-width: 100vh;
+    max-height: 100vh;
+    padding: 10px;
+   
+}
+.upper__container{
+    background-color: white;
+    grid-column: 1/3;
+    padding: 25px;
+    letter-spacing: .5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.upper__container p{
+  color: hsl(218, 22%, 67%);  
+  padding: 10px;
+
+}
+.main__heading{
+    padding: 20px;
+    color: hsl(179, 58%, 46%);
+}
+.description{
+    padding: 15px;
+}
+.left__container{
+    background-color: hsl(179, 62%, 43%);
+    padding:25px ;
+    /* letter-spacing: 1px; */
+    border-bottom-left-radius: 10px;
+  
+}
+.left__container p{
+    color: hsl(201, 29%, 87%);
+   
+
+}
+.full__acess{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: rgb(224, 221, 221);
+}
+.price{
+    display: flex;
+    padding: 10px;
+
+} 
+.price h1{
+    color: hsl(204, 43%, 93%);
+
+}
+.sign__up{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center; 
+    
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    width: 240px;
+    
+   /* padding-left: 25px; */
+   margin-left: 20px;
+}
+.sign__up p{
+    color: white;
+
+}
+
+.right__container{
+    background-color:hsl(179, 70%, 44%);
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+  
+}
+.right__container p{
+    color: hsl(203, 25%, 90%);
+}
+
+
